@@ -1,0 +1,71 @@
+<Doctype html>
+<html>
+ <head>
+   <style>
+   header{
+   height:55px;
+   }
+   div{
+   height:40px;
+   width:100%;
+  }
+  img{
+   padding-right:30px;
+  }
+   
+   article{
+   height:550px;
+   width:100%;
+   background-image:url('bg_img.jpeg');
+   background-position:center;
+   background-repeat:no-repeat;
+   background-size:cover;
+   }
+   
+   footer{
+   height:35px;
+   background-color:midnightblue;
+   color:white;
+   }
+   
+   h5{
+   margin-top:0px;
+   padding-top:10px;
+   text-align:center;
+   }
+   p{
+	padding-top:30px;
+	margin-right:40px;
+   }
+   #A{
+	width:100%;
+	background-color:lightblue;
+	color:purple;
+   }
+   h6{
+   margin-top:0px;
+   padding-top:10px;
+   text-align:center;
+   font:bold;
+   }
+   </style>
+ </head>
+   <body>
+   <header>
+   <div>
+    <img src="logo1.jpg" alt="logo1">
+	<img src="logo2.jpg" alt="logo2">
+	<img src="logo3.jpg" alt="logo3">
+   </div>
+   </header>
+   <article>
+   <p align="right"><img src="form_img.jpg"></p>
+   </article>
+   <footer>
+   <h5>Make Real-Life Connections With IT<h5>
+   </footer>
+   <footer id="A">
+   <h6>Designed & Developed by:Pranali</h6>
+   </footer>
+  </body>
+</html>

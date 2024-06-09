@@ -1,0 +1,258 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: sans-serif;
+	box-sizing:borderf-box;
+}
+.navbar-brand{
+	float:left;
+}
+header .navbar{
+	background:rgba(0,0,0,0.5);
+}
+header .navbar .navbar-nav .nav-link{
+	font-size:1rem;
+	font-weight:bold;
+}
+header .navbar .navbar-nav .nav-link{
+	color:white;
+}
+header .navbar .navbar-nav .nav-link:hover{
+	color:orange;
+}
+header .navbar .navbar-nav i{
+	font-size:1.5rem;
+	color:white;
+	cursor:pointer;
+}
+header .navbar .navbar-nav .nav-item i:hover{
+	color:orange;
+}
+
+
+
+.carousel-item{
+	height:42rem;
+}
+.carousel-inner .carousel-item img{
+	width:100%;
+	background-size:cover;
+}
+.carousel-inner .carousel-item .carousel-caption h5{
+		font-size:3rem;
+		font-weight:bold;
+		color:white;
+}
+.carousel-inner .carousel-item .carousel-caption p{
+	letter-spacing:0.3rem;
+	font-size:1rem;
+	font-style:italic;
+	bottom:0;
+}
+.text p{
+	justify-content:center;
+	font-weight:bold;
+}
+.text h1{
+	text-shadow:2px 2px 5px red;
+}
+.range{
+	background:#EDEDED;
+
+}
+
+.recepis .card-body h5:hover{
+	cursor:pointer;
+	color:orange;
+}
+.button{
+	border-radius:2px;
+	color:white;
+}
+.certificates .figure img{
+	box-shadow: 7px 7px 15px gray;
+	cursor:pointer;
+}
+.page-footer{
+	background:black;
+}
+
+.page-footer .footer-bottom{
+	background:#333333;
+}
+
+
+
+.bgimg{
+	background-image:url('2.jpg');
+	background-size:100% 100%;
+	background-attachment:fixed;
+	width:100%;
+	height:450px;
+}
+.bgimg h4{
+	font-size:2rem;
+	color:white;
+	letter-spacing:0.2rem;
+	padding-top:10rem;
+}
+.bgimg h6{
+	font-size:1rem;
+	color:white;
+	letter-spacing:0.2rem;
+}
+.discover{
+	
+}
+.discover .text{
+	display:flex;
+	flex-direction:column;
+	justify-content:flex-start;
+	align-items:flex-start;
+	margin:auto;
+}
+.aboutText .paragraph p{
+	height:auto;
+	width:100%;
+	border:1px solid gray;
+	float:right;
+	text-align:justify;
+	padding:5px;
+}
+.farm .row p{
+	text-align:justify;
+	padding:auto;
+}
+.farm .row .imgsetting{
+	padding-top:8px;
+	
+}
+.certificates .row .text p{
+	text-align:justify;
+	font-style:italic;
+}
+
+
+
+
+header .productImg{
+	background-image:linear-gradient(45deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(36.jpg);
+    width: 100%;
+	background-size:100% 100%;
+	background-attachment:fixed;
+	width:100%;
+	height:450px;
+	background-repeat:no-repeat;
+}
+.productImg h4{
+	font-size:2rem;
+	color:white;
+	letter-spacing:0.2rem;
+	padding-top:10rem;
+}
+.productImg h6{
+	font-size:1rem;
+	color:white;
+	letter-spacing:0.2rem;
+}
+.products{
+	cursor:pointer;
+}
+
+
+.RecipesImg{
+	background-image:linear-gradient(45deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(48.jpg);
+    width: 100%;
+	background-size:100% 100%;
+	background-attachment:fixed;
+	width:100%;
+	height:450px;
+	background-repeat:no-repeat;
+}
+.RecipesImg h4{
+	font-size:2rem;
+	color:white;
+	letter-spacing:0.2rem;
+	padding-top:10rem;
+	
+}
+.RecipesImg h6{
+		font-size:1rem;
+	color:white;
+	letter-spacing:0.2rem;
+}
+.recipes h5{
+	background:orange;
+	width:100%;
+	height:2rem;
+	margin-bottom:0px;
+	color:white;
+}
+
+
+
+.contactImg{
+	background-image:linear-gradient(45deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(70.jpg);
+    width: 100%;
+	background-size:100% 100%;
+	background-attachment:fixed;
+	width:100%;
+	height:450px;
+	background-repeat:no-repeat;
+}
+.contactImg h4{
+	font-size:2rem;
+	color:white;
+	letter-spacing:0.2rem;
+	padding-top:10rem;
+	
+}
+.contactImg h6{
+		font-size:1rem;
+	color:white;
+	letter-spacing:0.2rem;
+}
+.contactImg h5{
+	background:orange;
+	width:100%;
+	height:2rem;
+	margin-bottom:0px;
+	color:white;
+}
+.contact p{
+	color:green;
+	cursor:pointer;
+}
+
+
+
+
+.buyImg{
+	background-image:linear-gradient(45deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(71.jpg);
+    width: 100%;
+	background-size:100% 100%;
+	background-attachment:fixed;
+	width:100%;
+	height:450px;
+	background-repeat:no-repeat;
+}
+.buyImg h4{
+	font-size:2rem;
+	color:white;
+	letter-spacing:0.2rem;
+	padding-top:10rem;
+	
+}
+.buyImg h6{
+		font-size:1rem;
+	color:white;
+	letter-spacing:0.2rem;
+}
+
+
+.buy img{
+	box-shadow: 7px 7px 15px red;
+}
+.patners img{
+	box-shadow: 2px 2px 5px gray;
+}

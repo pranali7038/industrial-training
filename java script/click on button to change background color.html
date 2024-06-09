@@ -1,0 +1,34 @@
+<Doctype html>
+<html>
+<body>
+	<script>
+		function colors(col)
+		{
+		switch(col)
+		{
+		case 'red':
+		document.bgColor="red";
+		break;
+		
+		case 'green':
+		document.bgColor="green";
+		break;
+		
+		case 'blue':
+		document.bgColor="blue";
+		break;
+		}
+		}
+	</script>
+	<form>
+		<input type="radio" name="Colors" onclick="colors('red')">Red
+		<br>
+		
+		<input type="radio" name="Colors" value="radio" onclick="colors('green')">Green
+		<br>
+		
+		<input type="radio" name="Colors" value="radio" onclick="colors('blue')">Blue
+		<br>
+	</form>
+</body>
+</html>
